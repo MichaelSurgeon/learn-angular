@@ -1,29 +1,5 @@
-<div class="container">
-  <div class="ui card">
-    <h1>Team Generator</h1>
-    <ul class="list">
-      <li *ngFor="let member of members">{{ member }}</li>
-    </ul>
-    <div class="add-members-container">
-      <input 
-      #addMemberInput
-      type="text" 
-      placeholder="Name" 
-      (input)="onInput(addMemberInput.value)"
-      [value]="newMemberName"
-      />
-      <button class="ui primary button" (click)="addMember()">Add</button>
-    </div>
-
-    <div class="input-container">
-      <input type="text" placeholder="# of teams" />
-      <button class="ui primary button">Generate</button>
-    </div>
-
-    <div class="clear-container">
-      <button class="ui primary button" (click)="clearMembers()">Clear All</button>
-    </div>
-
-    <p *ngIf="errorMessage" class="error-msg">{{ errorMessage }}</p>
-  </div>
-</div>
+<body>
+  <div class="container">
+    <div class="navigation-container"><app-navigation-bar></app-navigation-bar></div>
+    <div class="info-container-1" style="margin-top: 10px"><app-info-card></app-info-card></div></div>
+</body>
