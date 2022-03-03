@@ -1,0 +1,55 @@
+.navigation-container{
+    width: 100%;
+    margin: auto;
+    overflow: auto;
+    max-height: 100px;
+}
+
+.navigation-header-container {
+    float: left;
+    margin: 0px;
+    padding: 5px;
+}
+
+.navigation-header-container h1 {
+    margin: 0px;
+    color: black;
+    font-family: Fredoka;
+    padding: 10px;
+    padding-left: 15px;
+    font-size: 45px;
+}
+
+.navigation-links {
+    float: right;
+    padding: 5px;
+    padding-top: 18px;
+}
+
+.navigation-links ul{
+    padding: 10px;
+    margin: auto;
+    padding: 0px;
+}
+
+.navigation-links li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+}
+
+.navigation-links a{
+    cursor: pointer;
+    margin: 15px;
+    text-decoration: none;
+    color: black;
+    font-family: Fredoka;
+    font-size: 25px;
+}
+
+.navigation-links a:hover{
+    color: lightblue;
+}
+
+

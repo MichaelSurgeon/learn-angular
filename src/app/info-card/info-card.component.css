@@ -1,0 +1,47 @@
+.info-container {
+    height: 500px;
+    width: 80%;
+    margin: auto;
+    margin-top: 70px
+}
+
+.welcome-img {
+    float: right;
+    height: 500px;
+}
+
+.welcome-img img{
+    height: 100%;
+    width: 100%;
+}
+
+.welcome-text {
+    font-family: Fredoka;
+    font-size: 50px;
+}
+
+.welcome-text p, li{
+    padding-top: 150px;
+    float: left;
+    font-family: Fredoka;
+    font-size: 50px;
+    word-wrap: wrap;
+}
+
+.welcome-text button {
+    font-size: 25px;
+    font-family: Fredoka;
+    background-color: orange;
+    border-color: orange;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 10px;
+    border-width: 0px;
+    box-shadow: 4px 4px black;
+
+}
+
+.welcome-text button:hover {
+    cursor: pointer;
+    background-color: yellow;
+}
